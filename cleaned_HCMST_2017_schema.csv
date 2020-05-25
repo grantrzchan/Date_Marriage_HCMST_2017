@@ -1,0 +1,284 @@
+variable_name,storage_type,display_format,value_label,variable_label
+CaseID,int,%8.0g,,Case ID 
+CASEID_NEW,long,%12.0g,,Longitudnal CaseID 
+qflag,byte,%8.0g,QFLAG,DOV: Qualification Flag 
+weight1,double,%12.0g,,Post-Stratification weight for Genpop (n=2994) 
+weight1_freqwt,float,%9.0g,,"wgt to CPS adult pop, scaled down by 2994/3110=round(weight1*2436295 > 95/3110) "
+weight2,double,%12.0g,,Post-Stratification weight for LGB (n=551) 
+weight1a,double,%12.0g,,Post-Stratification weight for total consented Genpop respondents (n=3110) 
+weight1a_freqwt,float,%9.0g,,"weighted up to CPS adult population, =round(weight1a*243629595/3110) "
+weight_combo,float,%9.0g,,"weight that combines all LGB subjects weighted down, with gen pop "
+weight_combo_freqwt,float,%9.0g,,frequency weight version of weight_combo 
+duration,int,%8.0g,,Interview duration in minutes 
+speed_flag,byte,%8.0g,SPEED_FL,Respondents who completed survey in under 2 minutes 
+consent,byte,%8.0g,CONSENT,Do you consent to participate in this study: 
+xlgb,byte,%8.0g,XLGB,LGB Sample 
+S1,byte,%8.0g,S1,Are you married? 
+S2,byte,%8.0g,S2,"Do you have a boyfriend, a girlfriend, a sexual partner or a romantic partner? "
+S3,byte,%8.0g,S3,"Have you EVER had a boyfriend, a girlfriend, or a sexual or romantic partner? "
+DOV_Branch,byte,%8.0g,DOV_BRAN,Data-only variable: DOV_Branch 
+Q3_Refused,byte,%8.0g,Q3_REFUS,"* [Refused] What is your [spouse, i.e. husband or wifes; boyfriend/girlfriends; la "
+Q4,byte,%8.0g,Q4,* Next are questions about [Partner name] and the family [Partner name] grew up wi 
+Q5,byte,%8.0g,Q5,Is [Partner name] the same sex as you? 
+Q6A,byte,%8.0g,Q6A,Is [Partner name] Latino or Hispanic? 
+Q6B,byte,%8.0g,Q6B,What is [Partner name]’s race? 
+Q9,byte,%8.0g,Q9,How old is [Partner name]? 
+Q10,byte,%8.0g,Q10,What is the highest level of schooling [Partner name] has completed? 
+Q11,byte,%8.0g,Q11,* What is the highest level of schooling [Partner name]’s MOTHER has completed? If 
+Q12,byte,%8.0g,Q12,"Generally speaking, does [Partner name] think of [herself/themself] as: "
+Q14,byte,%8.0g,Q14,"* Next are a few questions about you, and the family you grew up with. What is the "
+Q15A7,byte,%8.0g,Q15A7,"* When you actually met [Partner name] in person for the first time, did you meet "
+Q16,byte,%8.0g,,* How many of your relatives do you see in person at least once a month? Include p 
+Q16_Refused,byte,%8.0g,Q16_REFU,* [Refused] How many of your relatives do you see in person at least once a month? 
+Q17A,byte,%8.0g,Q17A,"Including your current marriage, how many times have you been married? "
+Q17B,byte,%8.0g,LABA,How many times have you been married? 
+Q17C,byte,%8.0g,Q17C,"What Gender are you most attracted to, sexually? "
+Q17D,byte,%8.0g,Q17D,"What Gender are you most attracted to, sexually? "
+Q19,byte,%8.0g,Q19,Are you currently living with [Partner name]? 
+Q20,byte,%8.0g,Q20,Have you ever lived together with [Partner name]? 
+Q21A_Year,byte,%8.0g,Q21A_YEA,[Year] In what Year and Month did you first meet [Partner_Name]? 
+Q21A_Month,byte,%8.0g,Q21A_MON,[Month] In what Year and Month did you first meet [Partner_Name]? 
+Q21B_Year,byte,%8.0g,Q21B_YEA,* [Year] In what year and month did your romantic relationship with [Partner_Name] 
+Q21B_Month,byte,%8.0g,Q21B_MON,* [Month] In what year and month did your romantic relationship with [Partner_Name 
+Q21C_Year,byte,%8.0g,Q21C_YEA,[Year] In what year and month did you first live together with [Partner_Name]? 
+Q21C_Month,byte,%8.0g,Q21C_MON,[Month] In what year and month did you first live together with [Partner_Name]? 
+Q21D_Year,byte,%8.0g,Q21D_YEA,[Year] In what Year and Month did you marry [Partner_Name]? 
+Q21D_Month,byte,%8.0g,Q21D_MON,[Month] In what Year and Month did you marry [Partner_Name]? 
+w6_identity,byte,%8.0g,W6_IDENT,Do you think of yourself as 
+w6_outness,byte,%8.0g,W6_OUTNE,"* Thinking about the important people in your life, how many are aware that you ar "
+w6_outness_timing,byte,%8.0g,V62_A,* How old were you when a few of the important people in your life first became aw 
+Q23,byte,%8.0g,Q23,"Between you and [Partner name], who earned more income in 2016: "
+Q24_Refused,byte,%8.0g,Q24_REFU,* [Refused] Please write the story of how you and [Partner name] first met and got 
+Q25,byte,%8.0g,Q25,Did you and [Partner name] attend the same high school? 
+Q26,byte,%8.0g,Q26,Did you and [Partner name] attend the same college or university? 
+Q27,byte,%8.0g,Q27,Did you and [Partner name] grow up in the same city or town? 
+Q28,byte,%8.0g,Q28,Did your parents know [Partner name]’s parents before you met [Partner name]? 
+w6_friend_connect_1,byte,%8.0g,W6_FRIEN,* [I knew one (or more) of [Partner name]'s friends before meeting [Partner name]. 
+w6_friend_connect_2,byte,%8.0g,V71_A,* [[Partner name] knew one (or more) of my friends before I met [Partner name].] C 
+w6_friend_connect_3,byte,%8.0g,V72_A,* [One (or more) of my friends knew one (or more) of [Partner name]'s friends befo 
+w6_friend_connect_4,byte,%8.0g,V73_A,[None of the above] Choose ALL that apply: 
+w6_friend_connect_Refused,byte,%8.0g,V74_A,[Refused] Choose ALL that apply: 
+Q32,byte,%8.0g,Q32,Did you use an Internet service to meet [Partner name]? 
+Q34,byte,%8.0g,Q34,"* In general, how would you describe the quality of your relationship with [Partne "
+Q35_Refused,byte,%8.0g,Q35_REFU,"* [Refused] In your own words, explain why your relationship with [Partner name] i "
+w6_sex_frequency,byte,%8.0g,W6_SEX_F,"* During the last 12 months, about how often did you have sex with [Partner name]? "
+w6_otherdate,byte,%8.0g,W6_OTHER,"* In the past year, have you ever met someone for dating, for romance, or for sex "
+w6_how_many,byte,%8.0g,W6_HOW_M,"* How many Different people besides [Partner name] have you met for dating, or rom "
+w6_how_meet_Refused,byte,%8.0g,V83_A,"* [Refused] How did you meet this person (for dating, romance, or sex) you met las "
+w6_otherdate_app,byte,%8.0g,V84_A,* In the Past Year have you ever used an app on your phone (such as Tinder or Grin 
+w6_how_many_app,byte,%8.0g,V85_A,"* Of the [Selected response from w6_how_many] you met in the past year, how many d "
+Past_Partner_Q1,byte,%8.0g,PAST_PAR,Were you ever married to [Partner name]? 
+w6_relationship_end_nonmar,byte,%8.0g,W6_RELAT,How did your relationship with [Partner name] end? 
+w6_breakup_nonmar,byte,%8.0g,W6_BREAK,"Between you and [Partner name], who wanted more to break up? "
+w6_relationship_end_mar,byte,%8.0g,V91_A,How did your marriage to [Partner name] end? 
+w6_who_breakup,byte,%8.0g,W6_WHO_B,"Between you and [Partner name], who wanted the [divorce/separation] more? "
+Q5_2,byte,%8.0g,Q5_2,[Is/Was] [Partner name] the same sex as you? 
+Q6A_2,byte,%8.0g,Q6A_2,[Is/Was] [Partner name] Latino or Hispanic? 
+Q9B_2,int,%8.0g,Q9B_2,What year was [Partner name] born? 
+Q10_2,byte,%8.0g,Q10_2,What is the highest level of schooling [Partner name] completed? 
+Q11_2,byte,%8.0g,Q11_2,* What is the highest level of schooling [Partner name]'s MOTHER completed? If yo 
+Q12_2,byte,%8.0g,Q12_2,"Generally speaking, did [Partner name] think of [himself/herself/themself] as: "
+Q14_2,byte,%8.0g,Q14_2,What is the highest level of schooling YOUR MOTHER has completed? 
+Q15A7_2_1,byte,%8.0g,Q15A7_2,"* When you actually met [Partner name] in person for the first time, did you meet "
+Q16_2,byte,%8.0g,Q16_2,* How many of your relatives do you see in person at least once a month? Include p 
+Q16_2_Codes,byte,%8.0g,Q16_2_CO,* [Refused] How many of your relatives do you see in person at least once a month? 
+Q17B_2,byte,%8.0g,LABA,How many times have you been married? 
+Q17C_2,byte,%8.0g,Q17C_2,"What Gender are you most attracted to, sexually? "
+Q17D_2,byte,%8.0g,Q17D_2,"What Gender are you most attracted to, sexually? "
+Q20_2,byte,%8.0g,Q20_2,Have you ever lived together with [Partner name]? 
+Q21A_2_Year,byte,%8.0g,Q21A_2_Y,[Year] In what Year and Month did you first meet [Partner_Name]? 
+Q21A_2_Month,byte,%8.0g,Q21A_2_M,[Month] In what Year and Month did you first meet [Partner_Name]? 
+Q21B_2_Year,byte,%8.0g,Q21B_2_Y,* [Year] In what year and month did your romantic relationship with [Partner_Name] 
+Q21B_2_Month,byte,%8.0g,Q21B_2_M,* [Month] In what year and month did your romantic relationship with [Partner_Name 
+Q21C_2_Year,byte,%8.0g,Q21C_2_Y,[Year] In what year and month did you first live together with [Partner_Name]? 
+Q21C_2_Month,byte,%8.0g,Q21C_2_M,[Month] In what year and month did you first live together with [Partner_Name]? 
+Q21D_2_Year,byte,%8.0g,Q21D_2_Y,[Year] In what Year and Month did you marry [Partner_Name]? 
+Q21D_2_Month,byte,%8.0g,Q21D_2_M,[Month] In what Year and Month did you marry [Partner_Name]? 
+Q21E_2_Year,byte,%8.0g,Q21E_2_Y,* [Year] In what Year and Month did you break up with [Partner_Name]?/In what Yea 
+Q21E_2_Month,byte,%8.0g,Q21E_2_M,* [Month] In what Year and Month did you break up with [Partner_Name]?/In what Ye 
+Q21F_2_start_range,byte,%8.0g,Q21F_2_S,for programming purpose 
+Q21F_2_Year,byte,%8.0g,Q21F_2_Y,[Year] In what Year and Month did [Partner_Name] pass away? 
+Q21F_2_Month,byte,%8.0g,Q21F_2_M,[Month] In what Year and Month did [Partner_Name] pass away? 
+w6_identity_2,byte,%8.0g,V137_A,Do you think of yourself as: 
+w6_outness_2,byte,%8.0g,V139_A,"* Thinking about the important people in your life, how many are aware that you ar "
+w6_outness_timing_2,byte,%8.0g,V140_A,* How old were you when a few of the important people in your life first became aw 
+Q23_2,byte,%8.0g,Q23_2,"When you and [Partner name] were last together, who earned more income? "
+Q25_2,byte,%8.0g,Q25_2,Did you and [Partner name] attend the same high school? 
+Q26_2,byte,%8.0g,Q26_2,Did you and [Partner name] attend the same college or university? 
+Q27_2,byte,%8.0g,Q27_2,Did you and [Partner name] grow up in the same city or town? 
+Q28_2,byte,%8.0g,Q28_2,Did your parents know [Partner name]’s parents before you met [Partner name]? 
+w6_friend_connect_2_1,byte,%8.0g,V148_A,* [I knew one (or more) of [Partner name]'s friends before meeting [Partner name]. 
+w6_friend_connect_2_2,byte,%8.0g,V149_A,* [[Partner name] knew one (or more) of my friends before I met [Partner name].] C 
+w6_friend_connect_2_3,byte,%8.0g,V150_A,* [One (or more) of my friends knew one (or more) of [Partner name]'s friends befo 
+w6_friend_connect_2_4,byte,%8.0g,V151_A,[None of the above.] Choose as many as apply 
+w6_friend_connect_2_Refused,byte,%8.0g,V152_A,[Refused] Choose as many as apply 
+Q32_2,byte,%8.0g,Q32_2,Did you use an Internet service to meet [Partner name]? 
+w6_otherdate_2,byte,%8.0g,V154_A,"In the past year, have you ever met someone for dating, for romance, or for sex? "
+w6_how_many_2,byte,%8.0g,V155_A,"* How many Different people have you met for dating, or romance, or sex in the pas "
+w6_otherdate_app_2,byte,%8.0g,V158_A,* In the Past Year have you ever used an app on your phone (such as Tinder or Grin 
+w6_how_many_app_2,byte,%8.0g,V159_A,"* Of the [Selected response from w6_how_many] you met in the past year, how many d "
+partyid7,byte,%8.0g,PARTYID7,DERIVED: Political party affiliation (7 categories) 
+PERSNET_hom,byte,%8.0g,PERSNET,PERSNET: Do you access the Internet at ... [Home] 
+ppc10017,byte,%8.0g,PPC10017,"* CU7: To the best of your knowledge, is the cell phone you use most often a smart "
+ppc21310,byte,%8.0g,PPC21310,CU35: How often do you USUALLY access the internet? 
+ppp20071,byte,%8.0g,PPP20071,Q26A: Would you describe yourself as a born-again or evangelical Christian? 
+ppp20072,byte,%8.0g,PPP20072,Q27: How often do you attend religious services? 
+ppage,byte,%8.0g,PPAGE,Age 
+ppagecat,byte,%8.0g,PPAGECAT,Age - 7 Categories 
+ppagect4,byte,%8.0g,PPAGECT4,Age - 4 Categories 
+ppeduc,byte,%8.0g,PPEDUC,Education (Highest Degree Received) 
+ppeducat,byte,%8.0g,PPEDUCAT,Education (Categorical) 
+ppethm,byte,%8.0g,PPETHM,Race / Ethnicity 
+ppgender,byte,%8.0g,PPGENDER,Gender 
+pphhhead,byte,%8.0g,PPHHHEAD,Household Head 
+pphhsize,byte,%8.0g,PPHHSIZE,Household Size 
+pphouse,byte,%8.0g,PPHOUSE,Housing Type 
+ppincimp,byte,%8.0g,PPINCIMP,Household Income 
+ppmarit,byte,%8.0g,PPMARIT,Marital Status 
+ppmsacat,byte,%8.0g,PPMSACAT,MSA Status 
+PPREG4,byte,%8.0g,PPREG4,Region 4 - Based on State of Residence 
+ppreg9,byte,%8.0g,PPREG9,Region 9 - Based on State of Residence 
+pprent,byte,%8.0g,PPRENT,Ownership Status of Living Quarters 
+PPT01,byte,%8.0g,PPT01,Presence of Household Members - Children 0-1 
+PPT25,byte,%8.0g,PPT25,Presence of Household Members - Children 2-5 
+PPT612,byte,%8.0g,PPT612,Presence of Household Members - Children 6-12 
+PPT1317,byte,%8.0g,PPT1317,Presence of Household Members - Children 13-17 
+PPT18OV,byte,%8.0g,PPT18OV,Presence of Household Members - Adults 18+ 
+ppwork,byte,%8.0g,PPWORK,Current Employment Status 
+Race_1,byte,%8.0g,LABArace,[White] Please choose one or more race(s) that you consider yourself to be 
+Race_2,byte,%8.0g,LABArace,* [Black or African American] Please choose one or more race(s) that you consider 
+Race_3,byte,%8.0g,LABArace,* [American Indian or Alaska Native] Please choose one or more race(s) that you co 
+Race_4,byte,%8.0g,LABArace,[Asian] Please choose one or more race(s) that you consider yourself to be 
+Race_5,byte,%8.0g,LABArace,* [Native Hawaiian or other Pacific Islander] Please choose one or more race(s) th 
+Race_6,byte,%8.0g,LABArace,* [Some other race …] Please choose one or more race(s) that you consider yourself 
+race1,byte,%8.0g,RACE1,Q14: White 
+race2,byte,%8.0g,RACE2,Q14: Black or African American 
+race3,byte,%8.0g,RACE3,Q14: American Indian or Alaska Native 
+race4,byte,%8.0g,RACE4,Q14: Asian Indian 
+race5,byte,%8.0g,RACE5,Q14: Chinese 
+race6,byte,%8.0g,RACE6,Q14: Filipino 
+race7,byte,%8.0g,RACE7,Q14: Japanese 
+race8,byte,%8.0g,RACE8,Q14: Korean 
+race9,byte,%8.0g,RACE9,Q14: Vietnamese 
+race10,byte,%8.0g,RACE10,Q14: Other Asian 
+race11,byte,%8.0g,RACE11,Q14: Hawaiian 
+race12,byte,%8.0g,RACE12,Q14: Guamanian 
+race13,byte,%8.0g,RACE13,Q14: Samoan 
+race14,byte,%8.0g,RACE14,Q14: Other Pacific Islander 
+race15,byte,%8.0g,RACE15,Q14: Some other race 
+w6_took_the_survey,byte,%30.0g,w6_took_,"the_survey whether subject took the survey, or was excluded "
+w6_prior_identity_lgb,byte,%17.0g,w6_prior,_identity_lgb whether subject was LGB in prior GfK survey based on weight2 and xlgb 
+w6_same_sex_couple,byte,%19.0g,w6_same_,sex_couple based on w6_prior_identity_lgb ==1 & w6_q5==1 
+w6_same_sex_couple_gender,byte,%15.0g,w6_same_,sex_couple_gender based on w6_same_sex_couple and ppgender 
+w6_q4,byte,%39.0g,Q4,partner gender 
+w6_q5,byte,%33.0g,Q5,Same-sex couple based on Q5 and Q5_2 
+w6_q6a,byte,%39.0g,Q6A,partner Hispanic 
+w6_q6b,byte,%33.0g,Q6B,partner's race 
+w6_q9,int,%8.0g,,partner age in 2017 
+w6_q10,byte,%32.0g,Q10,partner's educational attainment 
+w6_q11,byte,%32.0g,Q11,partner's mother's Education 
+w6_q12,byte,%27.0g,Q12,partner political affiliation 
+w6_q14,byte,%32.0g,Q14,Subject's mother's educational attainment 
+w6_q15a1_truncated,byte,%31.0g,Q15A1,* subject's country where grew up 
+w6_q15a4_truncated,byte,%31.0g,Q15A4,* Country Subject was living in when met partner 
+w6_q15a7,byte,%89.0g,Q15A7,"met partner where subject was living then, or not "
+w6_q16,byte,%8.0g,,how many relatives see in person each month 
+w6_q17,byte,%8.0g,,times subject has married 
+w6_attraction,byte,%67.0g,w6_attra,"ction gender of attraction, based on Q17C and Q17D, and ppgender "
+w6_q19,byte,%8.0g,Q19,Are you currently living with [partner name]? 
+w6_q20,byte,%8.0g,Q20,ever lived with partner? 
+w6_q21a_year,int,%8.0g,,year subject first met partner 
+w6_q21a_month,byte,%9.0g,Q21A_MON,month subject first met partner 
+w6_q21a_month_flag,byte,%8.0g,yesno,whether month first met has been allocated 
+w6_q21b_year,int,%8.0g,,year subject began romantic relationship w partner 
+w6_q21b_month,byte,%9.0g,Q21B_MON,month subject began romantic relationship w partner 
+w6_q21b_month_flag,byte,%8.0g,,whether month of relationship beginning is randomly allocated 
+w6_q21c_year,int,%8.0g,,year subject first lived with partner 
+w6_q21c_month,byte,%9.0g,Q21C_MON,month subject first lived with partner 
+w6_q21c_month_flag,byte,%8.0g,,=1 if month of first cohab is randomly allocated 
+w6_q21d_year,int,%8.0g,,year subject married partner 
+w6_q21d_month,byte,%9.0g,Q21D_MON,month subject married partner 
+w6_q21e_year,int,%8.0g,,year of breakup 
+w6_q21e_month,byte,%9.0g,Q21E_2_M,month of breakup 
+w6_q21f_year,int,%8.0g,,year partner died 
+w6_q21f_month,byte,%9.0g,Q21F_2_M,month partner died 
+w6_identity_all,byte,%24.0g,W6_IDENT,subject sexual identity 
+w6_outness_all,byte,%19.0g,W6_OUTNE,GLB outness: how many of the imp people in your life know you are GLB? 
+w6_outness_timing_all,byte,%8.0g,,how old subject was when came out 
+w6_q23,byte,%38.0g,Q23,Who earned more (in 2016 or when last together) 
+w6_q24_length,float,%9.0g,,length of q24 how met answer in characters 
+w6_q25,byte,%21.0g,Q25,did subject and partner attend same H.S. 
+w6_q26,byte,%8.0g,,did subject and partner attend same college 
+w6_q27,byte,%8.0g,Q27,did subject and partner grow up in same city or town 
+w6_q28,byte,%8.0g,Q28,did subject's parents know partner's parents before subject knew partner? 
+w6_friend_connect_1_all,byte,%8.0g,yesno,subject knew partner's friends before meeting partner 
+w6_friend_connect_2_all,byte,%8.0g,yesno,partner knew subjects friends before meeting subject 
+w6_friend_connect_3_all,byte,%8.0g,yesno,subject's friends knew partner's friends before subject and partner met 
+w6_friend_connect_4_all,byte,%8.0g,yesno,no prior connection between subject's friends and partner's friends 
+w6_q32,byte,%72.0g,Q32,did you use an Internet service to meet partner? 
+w6_q34,byte,%9.0g,Q34,how would you describe the quality of your relationship with partner? 
+w6_otherdate_all,byte,%105.0g,W6_OTHER,In past yr have you met anyone for dating romance or sex (not incl current partn 
+w6_how_many_all,byte,%120.0g,V154_A,how many ppl did you meet (not including current partner if partnered) last yr 
+w6_otherdate_app_all,byte,%106.0g,V157_A,not incl current partner (if partnered) did you use phone app last year to meet 
+w6_how_many_app_all,byte,%119.0g,V158_A,how many ppl did you meet (not including partner) last year through phone apps? 
+w6_number_people_met,float,%8.0g,,based on w6_how_many_all and w6_otherdate_all 
+w6_otherdate_dichotomous,byte,%8.0g,yesno,did subject meet someone last year (other than current partner)? 
+w6_married,byte,%8.0g,yesno,based on S1 
+relate_duration_at_w6_years,float,%9.0g,,july 2017-year and month when rel started (Q21B) if has current rel 
+w6_number_people_met_app,float,%9.0g,,"num of people met through phone apps last year, from w6_how_many_app_all, w6_oth "
+weight_combo_v2,float,%9.0g,,a different ver of the weight_combo var that weights LGB a little too highly 
+partnership_status,byte,%33.0g,partners,"hip_status marital and partner, past partner status based on S1, S2, S3 "
+female,byte,%8.0g,yes_no,based on ppgender 
+year_fraction_met,float,%9.0g,,= w6_q21a_year+(( w6_q21a_month-0.5)/12) 
+year_fraction_relstart,float,%9.0g,,= w6_q21b_year+(( w6_q21b_month-0.5)/12) 
+age_when_met,float,%9.0g,,"age when met in years, =ppage-(2017- w6_q21a_year) "
+time_from_met_to_rel,float,%9.0g,,= year_fraction_relstart- year_fraction_met 
+year_fraction_first_cohab,float,%9.0g,,= w6_q21c_year+(( w6_q21c_month-0.5)/12) 
+time_from_rel_to_cohab,float,%9.0g,,"year_fraction_first_cohab- year_fraction_relstart, neg reset to zero "
+hcm2017q24_R_cowork,byte,%8.0g,yesno,Respondent's coworker: indermediary or partner 
+hcm2017q24_R_friend,byte,%8.0g,yesno,Respondent's friend: intermediary 
+hcm2017q24_R_family,byte,%8.0g,yesno,Respondent's family: intermediary 
+hcm2017q24_R_sig_other,byte,%8.0g,yesno,Respondent's (current or past) Significant Other: Intermediary 
+hcm2017q24_R_neighbor,byte,%8.0g,yesno,Respondent's residential neighbor: intermediary or Partner 
+hcm2017q24_P_cowork,byte,%8.0g,yesno,Partner's coworker: Intermediary or Respondent 
+hcm2017q24_P_friend,byte,%8.0g,yesno,Partner's Friend: Intermediary 
+hcm2017q24_P_family,byte,%8.0g,yesno,Partner's Family: Intermediary 
+hcm2017q24_P_sig_other,byte,%8.0g,yesno,Partner's (current or past) Significant Other: Intermediary 
+hcm2017q24_P_neighbor,byte,%8.0g,yesno,Partner's residential neighbor: Intermediary or Respondent 
+hcm2017q24_btwn_I_cowork,byte,%8.0g,yesno,coworker relationship between intermediaries 
+hcm2017q24_btwn_I_friend,byte,%8.0g,yesno,friendship between intermediaries 
+hcm2017q24_btwn_I_family,byte,%8.0g,yesno,family relationship between intermediaries 
+hcm2017q24_btwn_I_sig_other,byte,%8.0g,yesno,significant other relationship between intermediaries 
+hcm2017q24_btwn_I_neighbor,byte,%8.0g,yesno,intermediaries are neighbors 
+hcm2017q24_school,byte,%8.0g,yesno,met in primary or secondary school 
+hcm2017q24_college,byte,%8.0g,yesno,met in college 
+hcm2017q24_mil,byte,%8.0g,yesno,met during military service 
+hcm2017q24_church,byte,%8.0g,yesno,met in or through church or religious organization 
+hcm2017q24_vol_org,byte,%8.0g,yesno,met through voluntary organization (non-church) 
+hcm2017q24_customer,byte,%8.0g,yesno,customer-client relationship 
+hcm2017q24_bar_restaurant,byte,%8.0g,yesno,"bar, restaurant, or othe public social gathering place "
+hcm2017q24_party,byte,%8.0g,yesno,private party 
+hcm2017q24_internet_other,byte,%8.0g,yesno,"Internet, not otherwise classified "
+hcm2017q24_internet_dating,byte,%8.0g,yesno,met through Internet dating or phone app 
+hcm2017q24_internet_soc_network,byte,%8.0g,yesno,met through internet social networking 
+hcm2017q24_internet_game,byte,%8.0g,yesno,met through online gaming 
+hcm2017q24_internet_chat,byte,%8.0g,yesno,met through Internet chat 
+hcm2017q24_internet_org,byte,%8.0g,yesno,met through Internet site not mainly dedicated to dating 
+hcm2017q24_public,byte,%8.0g,yesno,met in public place 
+hcm2017q24_blind_date,byte,%8.0g,yesno,met on blind date 
+hcm2017q24_vacation,byte,%8.0g,yesno,met while on vacation 
+hcm2017q24_single_serve_nonint,byte,%8.0g,yesno,non internet single service 
+hcm2017q24_business_trip,byte,%8.0g,yesno,met while on business trip 
+hcm2017q24_work_neighbors,byte,%8.0g,yesno,met as work neighbors 
+hcm2017q24_met_online,byte,%8.0g,yesno,"met online, all kinds "
+hcm2017_q24_lengthfloat%9.0gary_all_codesbyte%8.0g_quality,byte,%9.0g,w6_relat,ionship_quality quality of existing relationships based on w6_q34 
+hcm2017q24_met_through_family,byte,%8.0g,yesno,1 if R_family or P_family =1 
+hcm2017q24_met_through_friend,byte,%8.0g,yesno,1 if R_friend or P_friend=1 
+hcm2017q24_met_through_as_nghbrs,byte,%8.0g,yesno,=1 if R_neighbor or P_neighbor=1 
+hcm2017q24_met_as_through_cowork,byte,%8.0g,yesno,1 if R_cowork or P_cowork=1 
+w6_subject_race,float,%33.0g,Q6B,based on single races Race_x 
+interracial_5cat,byte,%8.0g,yesno,based on w6_subject_race and w6_q6b 
+partner_mother_yrsed,float,%9.0g,,RECODE of w6_q11 (partner's mother's Education) 
+subject_mother_yrsed,float,%9.0g,,RECODE of w6_q14 (Subject's mother's educational attainment) 
+partner_yrsed,float,%9.0g,,RECODE of w6_q10 (partner's educational attainment) 
+subject_yrsed,float,%9.0g,,RECODE of ppeduc (Education (Highest Degree Received)) 
