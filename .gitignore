@@ -1,4 +1,5 @@
 #ignore data folder and virtual environment
 HCMST_2017_public_data_v1.1_stata
-venv
+vrenv
 HCMST_2017_public_data_v1.1_stata.zip
+requirements.txt
