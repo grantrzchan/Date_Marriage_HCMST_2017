@@ -3,3 +3,4 @@ HCMST_2017_public_data_v1.1_stata
 vrenv
 HCMST_2017_public_data_v1.1_stata.zip
 requirements.txt
+*.log
